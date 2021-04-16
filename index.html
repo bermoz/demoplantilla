@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Maquetado Basico</title>
+</head>
+<body>  
+      <div class="container">
+        <nav class="topnav" id="myTopnav">
+            <a href="#myTopnav"><i class="fa fa-home"></i></a>
+            <a href="#home" class="active">Inicio</a>
+            <a href="#news">Noticias</a>
+            <a href="#contact">Contacto</a>
+            <a href="#about">Acerca</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <p>Barra de Navegación</p>
+    </nav>
+        <main><h1>Contenido Principal</h1>
+            <p>Contenido Parrafo 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p>
+            <p>Contenido Parrafo 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p>
+        </main>
+        <aside class="sidebar">
+            <h2>barra lateral</h2>
+        <ul>
+            <li><a href="">Opcion</a></li>
+            <li><a href="">Opcion</a></li>
+            <li><a href="">Opcion</a></li>
+            <li><a href="">Opcion</a></li>
+            <li><a href="">Opcion</a></li>
+        </ul>
+        <div class="content1"> <h2>Titulo 1</h2><p>Contenido 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p></div>
+        <div>
+            <img src="img/undraw_personal_information_re_vw8a.svg" alt="">
+        </div>
+
+        </aside>
+        <div class="content1"> <h2>Titulo 1</h2><p>Contenido 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p></div>
+        <div class="content2"><h2>Titulo 2</h2><p>Contenido 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p></div>
+        <div class="content3"><h2>Titulo 3</h2><p>Contenido 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae vitae dignissimos adipisci, culpa, alias a minima quod, id non dolorem facere architecto fuga? Natus aspernatur temporibus veniam doloribus nihil.</p></div>
+        <footer><h2>Pie de Contenido</h2> <p>Pie de Contenido Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ipsa temporibus ducimus quo voluptatum enim vel perferendis doloremque quae earum dolor dignissimos culpa quia consectetur deserunt quibusdam nesciunt, maiores officia!</p></footer>
+      </div>
+      <div class="footer">
+      <a href="https://www.youtube.com/watch?v=68O6eOGAGqA">Video Tutorial</a></div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
